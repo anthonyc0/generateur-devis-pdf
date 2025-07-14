@@ -1,23 +1,25 @@
-# 🧾 Générateur de Devis PDF
+# 📄 Générateur de Devis PDF – Python
 
-Ce script Python permet de générer automatiquement un fichier PDF pour un devis.
+Un script Python simple qui génère des devis professionnels en PDF à partir de données client et prestations.
 
-## ⚙️ Fonctionnalités
+---
 
-- Génère un fichier PDF avec :
-  - Nom du client
-  - Description de la prestation
-  - Montant à facturer
-  - Date du jour
-- Format propre, clair, lisible
-- Facile à modifier
+## 🚀 Fonctionnalités
+- Ajout automatique des lignes de prestations (nom, quantité, prix)
+- Calcul du total
+- Génération d’un fichier PDF prêt à envoyer au client
+- Format pro et clair
 
-## 🛠️ Librairies utilisées
+---
 
-- `fpdf` : création de fichiers PDF
-- `datetime` : gestion des dates
+## 🛠️ Technologies
+- Python 3
+- `fpdf` ou `reportlab` (selon ce que tu as utilisé)
 
-## ▶️ Exemple d'utilisation
+---
 
-```python
-generer_devis("Monsieur Dupont", "Article SEO 500 mots", 80)
+## 📦 Installation
+
+Installe les dépendances :
+```bash
+pip install -r requirements.txt
